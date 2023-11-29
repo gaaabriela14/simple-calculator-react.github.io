@@ -1,0 +1,78 @@
+/* index.css */
+/* Calculator.css */
+
+/* Estilos para el contenedor principal de la calculadora */
+.calculator {
+  width: 300px;
+  margin: 60px auto;
+  border: 1px solid #555; 
+  padding: 20px;
+  border-radius: 15px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0; 
+}
+
+/* Estilos para la pantalla de la calculadora que muestra la entrada del usuario */
+.input {
+  font-size: 1.2em; /* Aumentamos el tamaño del texto */
+  margin-bottom: 20px;
+  padding: 15px; /* Aumentamos el relleno */
+  border: 1px solid #ccc;
+  border-radius: 15px; /* Esquinas más redondas */
+  background-color: #fff;
+}
+
+/* Estilos para la cuadrícula de botones */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Estilos para los botones numéricos y operadores */
+button {
+  font-size: 1.2em;
+  padding: 15px;  
+  border: 2px solid #555; 
+  border-radius: 10px; 
+  cursor: pointer;
+  background-color: #e0e0e0;
+  transition: background-color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipo de letra más minimalista */
+}
+
+/* Estilos para resaltar los botones al hacer clic */
+button:active {
+  background-color: #c0c0c0;
+}
+
+button:hover {
+  background-color: #7e7a7a; /* Cambia el color al pasar el ratón por encima */
+}
+
+/* Estilos específicos para el botón "AC" */
+.ac-button {
+  background-color: #dcd0c0;
+  color: #333;
+}
+
+/* Estilos para la animación de escribir para el título */
+h1 {
+  
+  font-size: 2em;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.15em solid transparent #333;
+  animation: typing 1.6s steps(40, end);
+
+}
+
+/* Animación de escribir */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
