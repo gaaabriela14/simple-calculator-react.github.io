@@ -63,3 +63,7 @@ La aplicación se abrirá en su navegador predeterminado en `http://localhost:30
 6. **Módulo:**
    - Haga clic en `7`, `Mo`, `2`.
    - Resultado: `1` (ya que 7 dividido por 2 tiene un residuo de 1)
+  
+7. **Interfaz:**
+   ![image](https://github.com/gaaabriela14/simple-calculator-react/assets/23261145/da579434-bbd7-4bfa-a090-de060e011bad)
+
